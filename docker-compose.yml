@@ -1,0 +1,11 @@
+services:
+  server_zone:
+    image: php-robot
+    container_name: server_zone
+    build:
+      context: .
+      dockerfile: ./images/Dockerfile
+    volumes:
+      - .:/app  
+    working_dir: /app
+    command: tail -f /dev/null

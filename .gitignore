@@ -1,0 +1,33 @@
+# Composer dependencies
+/vendor/
+
+# PHPUnit coverage and test output
+/coverage/
+/tests/*.html
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+/.vscode/
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Docker artifacts
+*.log
+
+# Ignore environment files
+.env
+.env.*
+
+# Ignore build artifacts
+/build/
+
+# Ignore PHPStorm and JetBrains IDE files
+.idea/
+
+# Ignore node_modules if present
+/node_modules/
